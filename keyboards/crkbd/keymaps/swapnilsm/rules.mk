@@ -1,0 +1,18 @@
+VIA_ENABLE = yes
+VIAL_ENABLE = yes
+VIAL_INSECURE = yes
+LTO_ENABLE = yes
+MOUSEKEY_ENABLE = yes
+RGBLIGHT_ENABLE = no
+SPACE_CADET_ENABLE = no
+GRAVE_ESC_ENABLE = no
+MAGIC_ENABLE = no
+WPM_ENABLE = no
+BACKLIGHT_ENABLE = no
+RGBLIGHT_ENABLE = no
+QMK_SETTINGS = no
+KEY_OVERRIDE_ENABLE = no
+CAPS_WORD_ENABLE = yes
+
+SRC += features/sentence_case.c
+SRC += features/achordion.c
